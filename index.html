@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>JaeYeop</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/kopubbatang.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <header class="header"></header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-4 my-5">
+          <h1 class="title">Introduction page<br> ㅡOh jae yeopㅡ</h1>
+        </div>
+      </div>
+      <ul class="contents">
+        <li class="picture">
+          <div class="row">
+            <div class="col-12 offset-1">
+              <div class="JaeYeop__img">
+                <img src="assets/profile.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="profile">
+          <div class="row">
+            <div class="col-12 offset-1">
+              <p>출생 1998년 8월 31일, 경북 고령</p>
+              <p>신체 175cm 65kg</p>
+              <p>
+                경력<br>
+                2005~2010 대구경운초등학교<br>
+                2011~2013 대구경운중학교<br>
+                2014~2016 대구일과학고등학교<br>
+                2017~ 유니스트
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Keyword1-Coding
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <h4 class="post__title post__intro mb-5">
+              비주얼 베이직으로 코딩 입문 - 2008<br>
+              정보올림피아드 출전(C++) - 2009~2016<br>
+              고등학교 게임제작 동아리 - 2014~2016<br>
+              Hexa 광탈 - 2017<br>
+              유니스트 컴퓨터 공학과 - 2018~<br>
+              멋쟁이 사자처럼 at UNIST - 2018~<br>
+            </h4>
+            <h4 class="post__title">
+              아내가 프로그래머 남편에게<br>
+              "쇼핑하러 갈 때 우유 하나 사와. 아, 계란 있으면 6개 사와"<br>
+              남편은 잠시 후, 우유를 6개 사왔다.<br>
+              아내는 물었다.<br>
+              "왜 우유를 6개나 사왔어!"<br>
+              "계란 있길래 6개 사왔지.."
+            </h4>
+            <p class="post__text">ID noahcha ㅡ</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Keyword2-Tennis
+              </button>
+            </h5>
+          </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <h4 class="post__title post__intro mb-5">
+              경운초등학교 테니스부 - 2005~2010<br>
+              전국 소년체전 대구대표 - 2010<br>
+              2018 호주오픈 관중<br>
+              섹시 테니스부 회장 - 2018
+            </h4>
+            <h4 class="post__title">
+              나는 결코<br>
+              한 경기를 이기려고 애쓰지 않는다.<br>
+              다만 한 점을 얻으려고 생각한다.
+            </h4>
+            <p class="post_text">피트 샘프라스 ㅡ</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Keyword3-Chicken
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <h4 class="post__title post__intro mb-5">
+              치킨의 세계에 입문 - 2014<br>
+              최애 치킨 지코바<br>
+              일주일에 두번 이상 치킨 섭취<br>
+              순살 > 뼈
+            </h4>
+            <h4 class="post__title">
+              인생은<br>
+              B와 D사이에<br>
+              C다.<br>
+              BIRTH CHICKEN DEATH
+            </h4>
+            <p class="post__text">작자 미상 ㅡ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
